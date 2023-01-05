@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 name = "package_example"
 version = "0.0.1"
 authors = [
-  { name="Bojan Sofronievski", email="bojan.drago@gmail.com" },
+    { name="Bojan Sofronievski", email="bojan.drago@gmail.com" },
 ]
 description = "A small example package"
 readme = "README.md"
@@ -26,5 +26,5 @@ dependencies = [
 
 [tool.pytest.ini_options]
 pythonpath = [
-  ".", "src",
+    ".", "src",
 ]
