@@ -15,7 +15,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-
 [project.urls]
 "Homepage" = "https://github.com/BojanSof/PythonPackageExample"
 "Bug Tracker" = "https://github.com/BojanSof/PythonPackageExample/issues"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", "src",
+]
