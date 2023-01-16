@@ -45,5 +45,5 @@ jobs:
     - name: Publish wheel package as artifact
       uses: actions/upload-artifact@v3
       with:
-        name: wheel-package
+        name: build-artifacts-${{ github.sha }}
         path: dist
